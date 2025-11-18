@@ -1,0 +1,84 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.conda/
+
+# TensorFlow / Keras
+*.h5
+*.hdf5
+*.pb
+saved_model/
+checkpoints/
+logs/
+runs/
+
+# Data directories (too large for GitHub)
+data/
+dataset/
+datasets/
+FER2013/
+fer2013/
+train/
+test/
+val/
+
+# Training outputs
+FER2013_Final_Optimized/
+*.ckpt
+*.index
+*.meta
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# OS
+Thumbs.db
+.directory
+
+# Model files (optional - uncomment if models are too large)
+# *.keras
+# *.weights.h5
+
+# Large output files
+*.mp4
+*.avi
+*.mov

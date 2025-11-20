@@ -1,0 +1,21 @@
+{
+    "individual_models": {
+        "vgg16": 0.622596800327301,
+        "custom_cnn_attention": 0.5625522136688232,
+        "custom_cnn_wide": 0.6324881315231323
+    },
+    "ensemble_accuracy": 0.6464196154917804,
+    "per_class_accuracy": {
+        "angry": 0.535490605427975,
+        "disgust": 0.7927927927927928,
+        "fear": 0.29296875,
+        "happy": 0.8517474633596392,
+        "neutral": 0.683698296836983,
+        "sad": 0.5437048917401764,
+        "surprise": 0.8507821901323707
+    },
+    "targets_achieved": {
+        "vgg16_70_percent": false,
+        "ensemble_70_percent": false
+    }
+}
